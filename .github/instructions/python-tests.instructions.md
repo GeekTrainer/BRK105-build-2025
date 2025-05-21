@@ -10,3 +10,5 @@ applyTo: 'server/tests/test_*.py'
 - Use a in-memory SQLite when testing data
 - Utilize setup and teardown functions to create and destroy the database for testing
     - Ensure the database is properly closed with `db.engine.dispose()`
+- A script is provided to run tests at `scripts/run-server-tests.sh`
+

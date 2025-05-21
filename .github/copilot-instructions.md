@@ -28,3 +28,9 @@ The frontend is written using:
 - Use good variable names, avoiding abbreviations and single letter variables
 - Use the casing standard for the language in question (camelCasing for TypeScript, snake_casing for Python, etc.)
 - Use type hints in all languages which support them
+
+## Available scripts
+
+- Run tests: `scripts/run-server-tests.sh`
+- Start the application: `scripts/start-app.sh`
+- Install all requirements: `scripts/setup-env.sh`
