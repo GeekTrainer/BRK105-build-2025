@@ -4,6 +4,7 @@ applyTo: 'server/tests/test_*.py'
 
 # Testing notes
 
+- Tests should be written using `unittest`
 - Tests should create shared data at the top to be used for the tests below
 - Include tests for success and for data not returned
 - Use a in-memory SQLite when testing data
